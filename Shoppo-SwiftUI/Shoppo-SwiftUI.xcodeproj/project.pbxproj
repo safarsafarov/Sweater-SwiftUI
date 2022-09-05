@@ -13,6 +13,8 @@
 		8B4C4B2328C164FA0077F953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1128C164F90077F953 /* ContentView.swift */; };
 		8B4C4B2428C164FA0077F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1228C164FA0077F953 /* Assets.xcassets */; };
 		8B4C4B2528C164FA0077F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1228C164FA0077F953 /* Assets.xcassets */; };
+		8B7458B228C5C2B50051ED58 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7458B128C5C2B50051ED58 /* Product.swift */; };
+		8B7458B528C5C6C30051ED58 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7458B428C5C6C30051ED58 /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		8B4C4B1228C164FA0077F953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4C4B1728C164FA0077F953 /* Shoppo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoppo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4C4B1D28C164FA0077F953 /* Shoppo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoppo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7458B128C5C2B50051ED58 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8B7458B428C5C6C30051ED58 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		8B4C4B0F28C164F90077F953 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8B7458B628C5CAED0051ED58 /* Views */,
+				8B7458B328C5C6B60051ED58 /* Componenets */,
+				8B7458B028C5C2A80051ED58 /* Models */,
 				8B4C4B1028C164F90077F953 /* Shoppo_SwiftUIApp.swift */,
-				8B4C4B1128C164F90077F953 /* ContentView.swift */,
 				8B4C4B1228C164FA0077F953 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -66,6 +72,30 @@
 				8B4C4B1D28C164FA0077F953 /* Shoppo-SwiftUI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8B7458B028C5C2A80051ED58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B7458B128C5C2B50051ED58 /* Product.swift */,
+				8B7458B428C5C6C30051ED58 /* ProductCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B7458B328C5C6B60051ED58 /* Componenets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Componenets;
+			sourceTree = "<group>";
+		};
+		8B7458B628C5CAED0051ED58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C4B1128C164F90077F953 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +198,8 @@
 			files = (
 				8B4C4B2228C164FA0077F953 /* ContentView.swift in Sources */,
 				8B4C4B2028C164FA0077F953 /* Shoppo_SwiftUIApp.swift in Sources */,
+				8B7458B228C5C2B50051ED58 /* Product.swift in Sources */,
+				8B7458B528C5C6C30051ED58 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
