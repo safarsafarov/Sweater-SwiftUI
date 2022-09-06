@@ -78,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				8B7458B128C5C2B50051ED58 /* Product.swift */,
-				8B7458B428C5C6C30051ED58 /* ProductCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,6 +85,7 @@
 		8B7458B328C5C6B60051ED58 /* Componenets */ = {
 			isa = PBXGroup;
 			children = (
+				8B7458B428C5C6C30051ED58 /* ProductCard.swift */,
 			);
 			path = Componenets;
 			sourceTree = "<group>";

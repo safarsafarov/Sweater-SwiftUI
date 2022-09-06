@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    var columns = [GridItem(.adaptive(minimum: 160, spacing: 20)]
+    var columns = [GridItem(.adaptive(minimum: 160), spacing: 20)]
+
     var body: some View {
-        VStack {
-            LazyVGrid(columns: columns, spacing: 20) {
-                
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns, spacing: 20)
             }
         }
     }
