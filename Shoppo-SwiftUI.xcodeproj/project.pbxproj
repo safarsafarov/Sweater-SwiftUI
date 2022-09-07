@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1AF25328C9264900D8503B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AF25228C9264900D8503B /* Assets.xcassets */; };
+		8B1AF25428C9264900D8503B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AF25228C9264900D8503B /* Assets.xcassets */; };
+		8B1AF25628C9266100D8503B /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AF25528C9266100D8503B /* Views */; };
+		8B1AF25828C9267E00D8503B /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AF25728C9267E00D8503B /* Models */; };
+		8B1AF25A28C926B000D8503B /* Components in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AF25928C926B000D8503B /* Components */; };
 		8B4C4B2028C164FA0077F953 /* Shoppo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1028C164F90077F953 /* Shoppo_SwiftUIApp.swift */; };
 		8B4C4B2128C164FA0077F953 /* Shoppo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1028C164F90077F953 /* Shoppo_SwiftUIApp.swift */; };
 		8B4C4B2228C164FA0077F953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1128C164F90077F953 /* ContentView.swift */; };
 		8B4C4B2328C164FA0077F953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1128C164F90077F953 /* ContentView.swift */; };
-		8B4C4B2428C164FA0077F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1228C164FA0077F953 /* Assets.xcassets */; };
-		8B4C4B2528C164FA0077F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C4B1228C164FA0077F953 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1AF25228C9264900D8503B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../SweaterShopApp/SweaterShopApp/Assets.xcassets; sourceTree = "<group>"; };
+		8B1AF25528C9266100D8503B /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		8B1AF25728C9267E00D8503B /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		8B1AF25928C926B000D8503B /* Components */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Components; sourceTree = "<group>"; };
 		8B4C4B1028C164F90077F953 /* Shoppo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoppo_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8B4C4B1128C164F90077F953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8B4C4B1228C164FA0077F953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4C4B1728C164FA0077F953 /* Shoppo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoppo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4C4B1D28C164FA0077F953 /* Shoppo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoppo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,9 +58,12 @@
 		8B4C4B0F28C164F90077F953 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8B1AF25928C926B000D8503B /* Components */,
+				8B1AF25728C9267E00D8503B /* Models */,
+				8B1AF25528C9266100D8503B /* Views */,
 				8B4C4B1028C164F90077F953 /* Shoppo_SwiftUIApp.swift */,
 				8B4C4B1128C164F90077F953 /* ContentView.swift */,
-				8B4C4B1228C164FA0077F953 /* Assets.xcassets */,
+				8B1AF25228C9264900D8503B /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -147,7 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4C4B2428C164FA0077F953 /* Assets.xcassets in Resources */,
+				8B1AF25A28C926B000D8503B /* Components in Resources */,
+				8B1AF25828C9267E00D8503B /* Models in Resources */,
+				8B1AF25328C9264900D8503B /* Assets.xcassets in Resources */,
+				8B1AF25628C9266100D8503B /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4C4B2528C164FA0077F953 /* Assets.xcassets in Resources */,
+				8B1AF25428C9264900D8503B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
